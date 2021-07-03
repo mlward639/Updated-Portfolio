@@ -5,7 +5,7 @@
 }
 
 .nav-links {
-    justify-content: flex-end; /* NOT WORKING */
+    justify-content: flex-end; /* NOT WORKING but worked when i used it in the contact me section*/
     border: 2px green solid;
 }
 
@@ -43,9 +43,42 @@
     margin-left: 0;
 }
 
+.work-pic {
+    border: 6px gray solid;
+    width: 90%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 4.5%;
+}
+
 
 /* contact me row vs footer */
-.contact-me {
+
+.contact-me-container {
     border: 2px solid orange;
     margin-left: 0;
+    align-items: center;
+
+}
+
+.contact-title  {
+    border: 5px pink solid;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.contact-links {
+    border: 2px green solid;
+    justify-content: space-around;
+}
+
+.contact-item {
+    font-size: 20px;
+    border: 2px solid purple;
+}
+
+.nav-link {
+    color: black;
 }
