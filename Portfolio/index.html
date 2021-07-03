@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container">
     <!-- Image and text -->
         <a class="navbar-brand" href="#">
-            <img src="" width="30" height="30" class="d-inline-block align-top" alt="Logo" loading="lazy">Maggie Ward
+            <img src="./assets/images/placeholder-logo.png" width="30" height="30" class="d-inline-block align-top logo-pic" alt="Logo" loading="lazy">Maggie Ward
         </a>
         <div class="nav-links" id="navbarNav">
             <ul class="navbar-nav">
@@ -45,12 +45,18 @@
           </div>
         </div>
         <div class="row my-main-work" id="my-work">
-          <div class="col col-2">
+            <div class="col col-2">
             My Work
-          </div>
-          <div class="col-10 col">
-            <img src="assets/images/placeholder-image.jpg">
-          </div>
+            </div>
+            <div class="col-10 col main-work-img-descr">
+                <a href="#">
+                <img src="assets/images/placeholder-image.jpg" alt="main work placeholder" class="main-work-pic">
+                </a>
+                <div class="main-work-description">
+                    <h2>Project Name</h2>
+                    <p>Tech used</p>
+                </div>
+            </div>
         </div>
         <div class="row my-other-work">
             <div class="col col-2">
@@ -61,12 +67,20 @@
                 <a href="https://mlward639.github.io/unit-six-homework/">
                     <img src="./assets/images/weather-screenshot.png" alt="weather-screenshot" class="work-pic">
                 </a>
+                <div class="other-work-description">
+                    <h3>Weather Dashboard</h2>
+                    <p>HTML, CSS, JS</p>
+                </div>
             </div>
             <!-- Password page pic/link -->
             <div class="col col-5">
                 <a href="https://mlward639.github.io/unit-three-homework/">
                     <img src="./assets/images/Website-screenshot-preGenerate.png" alt="password-screenshot" class="work-pic">
                 </a>
+                <div class="other-work-description">
+                    <h3>Password Generator</h2>
+                    <p>HTML, CSS, JS</p>
+                </div>
             </div>
         </div>
         <div class="row my-other-work">
@@ -75,15 +89,23 @@
             </div>
             <!-- Blank page pic/link -->
             <div class="col-5 col">
-                <a href = "">
+                <a href = "#">
                     <img src="assets/images/placeholder-image.jpg" alt="placeholder" class="work-pic">
                 </a>
+                <div class="other-work-description">
+                    <h3>HW Name</h2>
+                    <p>Tech used</p>
+                </div>
             </div>
             <!-- Blank page pic/link -->
             <div class="col col-5">
-                <a href = "">
+                <a href = "#">
                     <img src="assets/images/placeholder-image.jpg" alt="placeholder" class="work-pic">
                 </a>
+                <div class="other-work-description">
+                    <h3>HW Name</h2>
+                    <p>Tech used</p>
+                </div>
             </div>
         </div>    
         <div class="row contact-me-container" id="contact-me">
@@ -91,7 +113,7 @@
               <h2 class="contact-title">Contact Me</h2>
             </div>
             <div class="col-10 col">
-                <ul class="navbar-nav navbar navbar-expand-lg navbar-light bg-light contact-links" id="navbarNav">
+                <ul class="navbar-nav navbar navbar-expand-lg contact-links" id="navbarNav">
                     <li class="contact-item active"><i class="fas fa-envelope-square"></i>
                         mlward639@gmail.com 
                     </li>

@@ -4,6 +4,11 @@
     border: 2px red solid;
 }
 
+.logo-pic {
+    height: 100%;
+    margin-right: 5px;
+}
+
 .nav-links {
     justify-content: flex-end; /* NOT WORKING but worked when i used it in the contact me section*/
     border: 2px green solid;
@@ -36,6 +41,22 @@
 .my-main-work {
     border: 2px solid orange;
     margin-left: 0;
+    position: relative;
+}
+
+.main-work-pic {
+    width: 90%;
+    margin-left: 4.5%;
+}
+
+.main-work-description {
+    border: aqua 2px solid;
+    background: white;
+    width: 25%;
+    z-index: 10;
+    position: absolute;
+    bottom: 15%;
+    margin-left: 4.5%;
 }
 
 .my-other-work {
@@ -51,6 +72,25 @@
     margin-left: 4.5%;
 }
 
+.other-work-description {
+    border: aqua 2px solid;
+    background: white;
+    width: 35%;
+    z-index: 10;
+    position: absolute;
+    bottom: 15%;
+    margin-left: 4.5%;
+    padding-bottom: 0;
+}
+
+.other-work-description h3 {
+    font-size: 18px;
+    line-height: 1;
+}
+
+.other-work-description p {
+    line-height: 1;
+}
 
 /* contact me row vs footer */
 
@@ -66,6 +106,7 @@
     align-items: center;
     font-size: 24px;
     font-weight: bold;
+    height: 100%;
 }
 
 
