@@ -1,0 +1,51 @@
+/* header */ 
+.navbar-container {
+    display: flex;
+    border: 2px red solid;
+}
+
+.nav-links {
+    justify-content: flex-end; /* NOT WORKING */
+    border: 2px green solid;
+}
+
+/* main container */
+
+.main-container {
+    border: 2px black solid; /* why is it not 100%??? */
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.col {
+    border: 2px solid red;
+}
+
+/* About me row */
+
+.about-me {
+    border: 2px orange solid;
+    margin-left: 0;
+}
+
+
+
+/* Work rows */
+.my-main-work {
+    border: 2px solid orange;
+    margin-left: 0;
+}
+
+.my-other-work {
+    border: 2px solid orange;
+    margin-left: 0;
+}
+
+
+/* contact me row vs footer */
+.contact-me {
+    border: 2px solid orange;
+    margin-left: 0;
+}
