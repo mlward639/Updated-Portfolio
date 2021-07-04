@@ -2,6 +2,17 @@
     box-sizing: border-box
 } 
 
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+/* light mode-add js */
+.light-mode {
+    background-color: white;
+    color: rgb(22, 22, 22)
+}
+
 /* header */ 
 .navbar-container {
     display: flex;
@@ -37,16 +48,23 @@
     margin-left: 0;
 }
 
+.profile-pic {
+    width: 70%;
+}
+
 /* Carousel */
 .carousel-main {
     border: blue 2px solid;
     margin-right: 1px;
     margin-left: 1px;
+    display: flex;
+    justify-content: center;
 }
-.carousel-slide {
-    width: 60%;
-    border: 7px pink solid;
+
+.carousel {
+    border: 2px solid lightblue;
 }
+
 .col-12 {
     border: green 2px solid;
     margin-left: 0;
@@ -62,7 +80,20 @@
 } 
 
 .carousel-img {
-    width: 50%;
+    width: auto;
+    height: 300px;
+    justify-content: center;
+    
+}
+
+.carousel-caption {
+    background-color: rgba(61, 61, 61, 0.945);
+    margin-bottom: -14px;
+    padding: 2px;
+}
+
+.carousel-control-next-icon {
+/*how to change icon colors */
 }
 
 
@@ -80,7 +111,8 @@
 
 .main-work-description {
     border: aqua 2px solid;
-    background: white;
+    color: black;
+    background-color: white;
     width: 25%;
     z-index: 10;
     position: absolute;
@@ -103,7 +135,8 @@
 
 .other-work-description {
     border: aqua 2px solid;
-    background: white;
+    color: black;    
+    background-color: white;
     width: 35%;
     z-index: 10;
     position: absolute;
