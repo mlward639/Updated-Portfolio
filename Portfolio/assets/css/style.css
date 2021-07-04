@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box
+} 
+
 /* header */ 
 .navbar-container {
     display: flex;
@@ -17,9 +21,7 @@
 /* main container */
 
 .main-container {
-    border: 2px black solid; /* why is it not 100%??? */
-    margin-left: 0;
-    margin-right: 0;
+    border: 5px black solid; /* why is it not 100%??? */
     width: 100%;
     padding: 0;
 }
@@ -35,6 +37,33 @@
     margin-left: 0;
 }
 
+/* Carousel */
+.carousel-main {
+    border: blue 2px solid;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+.carousel-slide {
+    width: 60%;
+    border: 7px pink solid;
+}
+.col-12 {
+    border: green 2px solid;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-inner {
+    display: flex; 
+}
+
+.carousel-item {
+    justify-content: center;
+} 
+
+.carousel-img {
+    width: 50%;
+}
 
 
 /* Work rows */
@@ -101,7 +130,7 @@
 
 }
 
-.contact-title  {
+.left-titles h2  {
     border: 5px pink solid;
     align-items: center;
     font-size: 24px;
