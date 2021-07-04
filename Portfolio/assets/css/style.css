@@ -183,5 +183,6 @@ body {
 }
 
 .nav-link {
-    color: black;
+    color: white;
+    /* how to override this so light mode turns the font black??? */
 }
