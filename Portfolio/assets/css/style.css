@@ -7,10 +7,18 @@ body {
     color: white;
 }
 
+a {
+    color: inherit;
+}
+
 /* light mode-add js */
 .light-mode {
     background-color: white;
     color: rgb(22, 22, 22)
+}
+
+.light-mode-font {
+    color: black;
 }
 
 /* header */ 
@@ -169,6 +177,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     height: 100%;
+    text-align: right;
 }
 
 
@@ -180,9 +189,4 @@ body {
 .contact-item {
     font-size: 20px;
     border: 2px solid purple;
-}
-
-.nav-link {
-    color: white;
-    /* how to override this so light mode turns the font black??? */
 }
