@@ -11,18 +11,21 @@
 </head>
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-container">
+    <nav class="navbar navbar-expand-lg navbar-container">
         <!-- logo and text -->
         <a class="navbar-brand" href="#">
             <img src="./assets/images/placeholder-logo.png" width="30" height="30" class="d-inline-block align-top logo-pic" alt="Logo" loading="lazy">Maggie Ward
         </a>
         <div class="nav-links" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav navbar-ul">
                 <li class="nav-item active">
                     <a class="nav-link" href="#about-me">About Me </a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#my-work">My Work </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="assets/MWard_Resume2021.pdf">Resume</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#contact-me">Contact Me </a>
@@ -31,7 +34,7 @@
         </div>
     </nav>
 
-    <button onclick="lightMode()">Switch mode</button>
+    <button class="mode-switch" onclick="lightMode()">Light mode</button>
     <!-- Main -->
     <div class="main-container">
         <!-- Carousel -->
@@ -40,9 +43,9 @@
                 <div class="carousel-inner">
                     <!-- Work ex1 -->
                     <div class="carousel-item active">
-                        <a href="#"><img src="./assets/images/placeholder-image.jpg" class="d-block carousel-img" alt="Project Name"></a>
+                        <a href="https://mlward639.github.io/Project-One-Sassy-Pets/"><img src="./assets/images/screenshot-deployed-url.png" class="d-block carousel-img" alt="Project Name"></a>
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Project One</h5>
+                            <h5>Sassy Pet Adoption Application</h5>
                         </div>
                     </div>
                     <!-- Work ex 2 -->
@@ -75,7 +78,7 @@
             <div class="col-2 col left-titles">
                 <h2>About Me</h2>
             </div>
-            <div class="col-7 col">
+            <div class="col-7 col about-me-description">
             Enter description here .................
             </div>
             <div class="col-3 col">
@@ -90,12 +93,12 @@
                 <h2>My Work</h2>
             </div>
             <div class="col-10 col main-work-img-descr">
-                <a href="#">
-                <img src="assets/images/placeholder-image.jpg" alt="main work placeholder" class="main-work-pic">
+                <a href="https://mlward639.github.io/Project-One-Sassy-Pets/">
+                <img src="./assets/images/screenshot-deployed-url.png" alt="main work placeholder" class="main-work-pic">
                 </a>
                 <div class="main-work-description">
-                    <h2>Project Name</h2>
-                    <p>Tech used</p>
+                    <h2>Sassy Pet Adoption Application</h2>
+                    <p>HTML, CSS, JS</p>
                 </div>
             </div>
         </div>

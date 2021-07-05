@@ -2,8 +2,16 @@
     box-sizing: border-box
 } 
 
+:root {
+    --darkGray: rgb(22, 22, 22);
+    --mediumGray: rgb(31, 31, 31);
+    --lightGray: rgba(224, 212, 212, 0.596);
+    --lightGray2: rgb(224, 212, 212);
+
+}
+
 body {
-    background-color: rgb(22, 22, 22);
+    background-color: var(--darkGray);
     color: white;
 }
 
@@ -11,70 +19,54 @@ a {
     color: inherit;
 }
 
-/* light mode-add js */
-.light-mode {
-    background-color: white;
-    color: rgb(22, 22, 22)
-}
-
-.light-mode-font {
-    color: black;
-}
-
 /* header */ 
 .navbar-container {
     display: flex;
-    border: 2px red solid;
+    background-color: var(--mediumGray);
+    color: inherit;
 }
 
 .logo-pic {
-    height: 100%;
+    height: 100%; /* how to make logo bigger?? */
     margin-right: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    
+}
+
+.navbar-brand {
+    font-size: 28px;
+    height: 120%;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links {
-    justify-content: flex-end; /* NOT WORKING but worked when i used it in the contact me section*/
-    border: 2px green solid;
+    width: 100%;
+    font-size: 20px;
+}
+
+.navbar-ul {
+    justify-content: flex-end;
 }
 
 /* main container */
-
 .main-container {
-    border: 5px black solid; /* why is it not 100%??? */
     width: 100%;
     padding: 0;
 }
 
-.col {
-    border: 2px solid red;
-}
-
-/* About me row */
-
-.about-me {
-    border: 2px orange solid;
-    margin-left: 0;
-}
-
-.profile-pic {
-    width: 70%;
-}
-
 /* Carousel */
 .carousel-main {
-    border: blue 2px solid;
     margin-right: 1px;
     margin-left: 1px;
     display: flex;
     justify-content: center;
-}
-
-.carousel {
-    border: 2px solid lightblue;
+    margin-top: 25px;
 }
 
 .col-12 {
-    border: green 2px solid;
     margin-left: 0;
     margin-right: 0;
 }
@@ -91,12 +83,13 @@ a {
     width: auto;
     height: 300px;
     justify-content: center;
+    margin-bottom: 30px;
     
 }
 
 .carousel-caption {
     background-color: rgba(61, 61, 61, 0.945);
-    margin-bottom: -14px;
+    margin-bottom: -24px;
     padding: 2px;
 }
 
@@ -105,56 +98,77 @@ a {
 }
 
 
+/* About me row */
+
+.about-me {
+    margin-left: 0;
+    background-color: var(--mediumGray);
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 70%;
+    border: 9px solid var(--darkGray);
+}
+
+
 /* Work rows */
 .my-main-work {
-    border: 2px solid orange;
     margin-left: 0;
+    margin-top: 35px;
+    margin-bottom: 20px;
     position: relative;
 }
 
 .main-work-pic {
     width: 90%;
-    margin-left: 4.5%;
+    margin-left: 2%;
+    border: 9px solid var(--mediumGray);
 }
 
 .main-work-description {
-    border: aqua 2px solid;
-    color: black;
-    background-color: white;
-    width: 25%;
-    z-index: 10;
-    position: absolute;
-    bottom: 15%;
-    margin-left: 4.5%;
-}
-
-.my-other-work {
-    border: 2px solid orange;
-    margin-left: 0;
-}
-
-.work-pic {
-    border: 6px gray solid;
-    width: 90%;
-    height: 90%;
-    margin-top: 3%;
-    margin-left: 4.5%;
-}
-
-.other-work-description {
-    border: aqua 2px solid;
-    color: black;    
-    background-color: white;
+    background-color: var(--mediumGray);
     width: 35%;
     z-index: 10;
     position: absolute;
     bottom: 15%;
-    margin-left: 4.5%;
+    line-height: 1;
+    margin-left: 1.9%;
+}
+
+.main-work-description h2 {
+    font-size: 26px;
+}
+
+.main-work-description p {
+    font-size: 20px;
+}
+
+.my-other-work {
+    margin-left: 0;
+}
+
+.work-pic {
+    border: 9px var(--mediumGray) solid;
+    width: 90%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 0%;
+}
+
+.other-work-description {
+    background-color: var(--mediumGray);
+    width: 35%;
+    z-index: 10;
+    position: absolute;
+    bottom: 15%;
     padding-bottom: 0;
 }
 
 .other-work-description h3 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1;
 }
 
@@ -165,14 +179,16 @@ a {
 /* contact me row vs footer */
 
 .contact-me-container {
-    border: 2px solid orange;
     margin-left: 0;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     align-items: center;
+    background-color: var(--mediumGray);
 
 }
 
 .left-titles h2  {
-    border: 5px pink solid;
     align-items: center;
     font-size: 24px;
     font-weight: bold;
@@ -182,11 +198,120 @@ a {
 
 
 .contact-links {
-    border: 2px green solid;
     justify-content: space-around;
 }
 
 .contact-item {
     font-size: 20px;
+}
+
+
+/* light mode */  /* why is it not applying to last 3 pics????????*/
+.light-mode {
+    background-color: white;
+    color: var(--darkGray)
+}
+
+.light-mode-other {
+    background-color: var(--lightGray);
+    color: var(--darkGray)
+}
+
+.light-mode-description {
+    background-color: var(--lightGray2);
+}
+
+.light-mode-pics {
+    border: 9px solid var(--lightGray2);
+}
+
+/* light/dark mode toggle */
+.mode-switch {
+    background-color: inherit;
+    color: inherit;
+    border-radius: 5px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+/* borders for editing */
+/*
+.navbar-container {
+    border: 2px red solid;
+}
+
+.logo-pic {
+    border: 1px yellowgreen solid; 
+}
+
+.nav-links {
+    border: 2px green solid;
+}
+
+.navbar-ul {
+    border: 2px orange solid;
+}
+
+.main-container {
+    border: 5px black solid; 
+}
+
+.col {
+    border: 2px solid red;
+}
+
+.about-me {
+    border: 2px orange solid;
+}
+
+.carousel-main {
+    border: blue 2px solid;
+}
+
+.carousel {
+    border: 2px solid lightblue;
+}
+
+.col-12 {
+    border: green 2px solid;
+}
+
+.my-main-work {
+    border: 2px solid orange;
+}
+
+.main-work-description {
+    border: aqua 2px solid;
+}
+
+.my-other-work {
+    border: 2px solid orange;
+}
+
+.work-pic {
+    border: 6px gray solid;
+}
+
+.other-work-description {
+    border: aqua 2px solid;
+}
+
+.contact-me-container {
+    border: 2px solid orange;
+}
+
+.left-titles h2  {
+    border: 5px pink solid;
+}
+
+.contact-links {
+    border: 2px green solid;
+}
+
+.contact-item {
     border: 2px solid purple;
 }
+*/
+
