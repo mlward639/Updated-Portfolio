@@ -9,8 +9,8 @@ Include:
     -when click the image of application, it takes to deployed application
     -mobile responsive
 -Updated portfolio: 
-    -contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/). SHOULD I CHANGE MY NUMEBR?
-    -links to Github profile and LinkedIn profile
+    -contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/). SHOULD I CHANGE MY NUMEBR?*********
+    -links to Github profile and LinkedIn profile UPDATEDLINKEDIN**********
     -link to downloadable PDF of resume
     -for each project, make sure it has:
         -project title
@@ -39,7 +39,8 @@ Include:
         -contact info for you and any collaborators
     -commit history (at least 20 commits on each)
 -updated resume - see HW README
--updated linkedin -see HW readme
+-updated linkedin -Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio. **********8
+
 
 ## Screenshot:
 Wireframe:
