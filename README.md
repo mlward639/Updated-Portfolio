@@ -9,7 +9,7 @@ Include:
     -when click the image of application, it takes to deployed application
     -mobile responsive
 -Updated portfolio: 
-    -contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/).
+    -contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/). SHOULD I CHANGE MY NUMEBR?
     -links to Github profile and LinkedIn profile
     -link to downloadable PDF of resume
     -for each project, make sure it has:
@@ -19,7 +19,7 @@ Include:
         -screenshot of deployed application
         -polished, mobile responsive UI
 
-* Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments. WHAT IS THIS??
+* Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments. 
 -github profile must contain: 
     -profile pic or avatar other than the default 
     -biography
