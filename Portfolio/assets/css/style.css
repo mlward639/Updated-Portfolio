@@ -128,8 +128,16 @@ a {
 }
 
 .profile-pic {
-    width: 70%;
+    width: 50%;
     border: 9px solid var(--darkGray);
+    margin-left: 10%;
+}
+
+.about-me-description {
+    font-size: 19px;
+    padding-left: 3%;
+    padding-right: 2%;
+    text-align: justify;
 }
 
 

@@ -1,4 +1,4 @@
-# unit-two-homework
+# unit-eight-homework
 
 ## Description:
 Updated portfolio webpage built from scratch, modeled after Unit 2 Homework example GIF, with addition of Project One and two homework assignments, updated resume, and updated LinkedIn. Currently with placeholder images and links for the remaining open projects, to be updated with functional web applications and pictures as they are created later in course. 
@@ -35,7 +35,7 @@ Include:
         -list of technologies used
         -1-2 sen explaining what it is
         -2-3 screenshots/gifs
-        -license (usually MIT)
+        -license (usually MIT) ????
         -contact info for you and any collaborators
     -commit history (at least 20 commits on each)
 -updated resume - see HW README
