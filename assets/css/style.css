@@ -237,7 +237,7 @@ a {
 }
 
 
-/* light mode */  /* why is it not applying to last 3 pics????????, same with media queries!*/
+/* light mode */  /* why is it not applying to last 3 pics????????, */
 .light-mode {
     background-color: white;
     color: var(--darkGray)
@@ -249,6 +249,10 @@ a {
 }
 
 .light-mode-description {
+    background-color: var(--lightGray2);
+}
+
+.light-mode-other-description{
     background-color: var(--lightGray2);
 }
 
@@ -323,28 +327,7 @@ a {
 
 
 @media screen and (max-width: 576px) {
-    
-/* come back to about me section 
-    .about-me {
-        display: inline-flex;
-        border: 1px solid red;
-    }
-
-    .about-me h2 {
-        border: 1px solid yellow;
-        justify-content: center;    }
-
-    .about-me-description {
-        display: inline-block;
-    }
-
-    .profile-pic {
-        display: block;
-        width: 100%
-    }
-*/
-
-    h1, h2, h3, h4, h5 {
+        h1, h2, h3, h4, h5 {
         font-size: 20px;  /* WHY WONT SIZE CHANGE unless i specify it like below??? */
     }
 
