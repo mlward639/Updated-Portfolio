@@ -98,6 +98,30 @@ a {
 }
 
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
 /* About me row */
 
 .about-me {
@@ -206,7 +230,7 @@ a {
 }
 
 
-/* light mode */  /* why is it not applying to last 3 pics????????*/
+/* light mode */  /* why is it not applying to last 3 pics????????, same with media queries!*/
 .light-mode {
     background-color: white;
     color: var(--darkGray)
@@ -234,6 +258,105 @@ a {
     margin-right: 20px;
 }
 
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    
+    .carousel-img {
+        width: 95%;
+        height: auto;
+    }
+
+    .profile-pic {
+        display: block;
+        width: 100%
+    }
+
+    .main-work-description, .other-work-description {
+        width: 50%;
+        margin-bottom: -6%;
+        padding-left: 10px;
+    }
+
+    .other-work-description {
+        margin-bottom: -7%
+    }
+
+    .main-work-description h2, .other-work-description h3 {
+        font-size: 18px;
+        line-height: 0.8;
+
+    }
+
+    .main-work-description p, .other-work-description p {
+        font-size: 16px;
+        line-height: 0.8;
+
+    }
+
+    .my-other-work {
+        display: inline-block;
+        width: 185%;
+        height: auto;
+        margin-left: 18.7%;
+    }
+
+    .work-pic {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+    
+/* come back to about me section 
+    .about-me {
+        display: inline-flex;
+        border: 1px solid red;
+    }
+
+    .about-me h2 {
+        border: 1px solid yellow;
+        justify-content: center;    }
+
+    .about-me-description {
+        display: inline-block;
+    }
+
+    .profile-pic {
+        display: block;
+        width: 100%
+    }
+*/
+
+    h1, h2, h3, h4, h5 {
+        font-size: 20px;  /* WHY WONT SIZE CHANGE unless i specify it like below??? */
+    }
+
+    .main-work-description h2 {
+        font-size: 16px;
+    }
+
+    .main-work-description  {
+        width: 40%;
+    }
+
+    .other-work-description h3 {
+        font-size: 16px;
+    }
+
+    .other-work-description {
+        width: 50%;
+    }
+
+    p {
+        font-size: 12px; 
+        line-height: 0.8;
+
+    }
+}
 
 
 /* borders for editing */
