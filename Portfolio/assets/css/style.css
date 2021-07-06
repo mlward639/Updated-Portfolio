@@ -274,30 +274,35 @@ a {
         height: auto;
     }
 
+    .about-me-description {
+        font-size: 16px;
+    }
     .profile-pic {
         display: block;
-        width: 100%
+        width: 85%
     }
 
-    .main-work-description, .other-work-description {
+    .main-work-description {
         width: 50%;
-        margin-bottom: -6%;
+        margin-bottom: -4%;
         padding-left: 10px;
     }
 
     .other-work-description {
-        margin-bottom: -7%
+        width: 50%;
+        margin-bottom: -7%;
+        padding-left: 10px;
     }
 
     .main-work-description h2, .other-work-description h3 {
         font-size: 18px;
-        line-height: 0.8;
+        line-height: 0.9;
 
     }
 
     .main-work-description p, .other-work-description p {
         font-size: 16px;
-        line-height: 0.8;
+        line-height: 0.9;
 
     }
 
@@ -310,6 +315,7 @@ a {
 
     .work-pic {
         width: 100%;
+        height: inherit;
     }
 
 
@@ -360,7 +366,7 @@ a {
 
     p {
         font-size: 12px; 
-        line-height: 0.8;
+        line-height: 0.9;
 
     }
 }

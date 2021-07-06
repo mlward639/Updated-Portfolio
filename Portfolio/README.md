@@ -44,21 +44,24 @@ Include:
 ## Screenshot:
 Wireframe:
 
-<img src="./assets/wireframe.png" alt="wireframe screenshot">  
+<img src=".\assets\images\wireframe.png" alt="wireframe screenshot">  
 
 Deployed website:
 
-<img src="" alt="deployed website screenshot">
+<img src=".\assets\images\screenshot-deployed-url.png">
 
-Deployed website, tablet view:
+Deployed website, medium view:
 
-<img src="" alt="deployed website with tablet view">  
+<img src=".\assets\images\screenshot-deployed-url-media-medium.png" alt="deployed website with tablet view">  
+*note: my scrolling screenshot application was unable to capture the entire length and therefore created an error at the bottom of the images. The deployed URL does not have this error.
 
 
-Deployed website, mobile view:
+Deployed website, small view:
 
-<img src="" alt="deployed website with tablet view">
+<img src=".\assets\images\deployed-URL-small.png" alt="deployed website with mobile view">
 
+Deployed website, light mode: 
+<img src=".\assets\images\deployed-url-light-mode.png" alt="screenshot deployed website in light mode">
 
 ## URLs:
 <a href="https://wireframe.cc/L1GSbf">Wireframe</a>
