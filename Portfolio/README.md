@@ -17,7 +17,7 @@ Include:
         -link to deployed version
         -link to github repo
         -screenshot of deployed application
-    -polished, mobile responsive UI
+        -polished, mobile responsive UI
 
 * Updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments. WHAT IS THIS??
 -github profile must contain: 
