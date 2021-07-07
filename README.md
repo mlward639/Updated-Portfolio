@@ -10,8 +10,6 @@ Include:
     -mobile responsive
 -Updated portfolio: 
     -contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as [Google Voice](https://voice.google.com/). SHOULD I CHANGE MY NUMEBR?*********
-    -links to Github profile and LinkedIn profile UPDATEDLINKEDIN**********
-    -link to downloadable PDF of resume
     -for each project, make sure it has:
         -project title
         -link to deployed version
@@ -37,9 +35,8 @@ Include:
         -2-3 screenshots/gifs
         -license (usually MIT) ????
         -contact info for you and any collaborators
-    -commit history (at least 20 commits on each)
--updated resume - see HW README
--updated linkedin -Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio. **********8
+
+
 
 
 ## Screenshot:
@@ -65,8 +62,6 @@ Deployed website, light mode:
 <img src=".\assets\images\deployed-url-light-mode.png" alt="screenshot deployed website in light mode">
 
 ## URLs:
-<a href="https://wireframe.cc/L1GSbf">Wireframe</a>
-<br>
 <a href="https://github.com/mlward639/Updated-Portfolio">GitHub</a>
 <br>
 <a href="https://mlward639.github.io/Updated-Portfolio/">URL of deployed application</a>

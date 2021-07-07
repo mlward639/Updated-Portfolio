@@ -252,9 +252,6 @@ a {
     background-color: var(--lightGray2);
 }
 
-.light-mode-other-description{
-    background-color: var(--lightGray2);
-}
 
 .light-mode-pics {
     border: 9px solid var(--lightGray2);
