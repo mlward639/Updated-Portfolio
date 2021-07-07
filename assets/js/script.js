@@ -1,3 +1,5 @@
+//light mode
+
 var modeSwitch = document.querySelector(".mode-switch")
 var mode = true;
 
@@ -22,7 +24,7 @@ function lightMode() {
    otherWorkDescription3.classList.toggle("light-mode-description");
    var otherWorkDescription4 = document.querySelector(".other-issue4");
    otherWorkDescription4.classList.toggle("light-mode-description");
-   //otherWorkDescription.classList.toggle("light-mode-description"); //why does querySelector only apply to the first light-mode-description, not the other 3 in the class??? and querySelectorAll doesnt apply to any of them (and causes JS error with toggle)
+   //otherWorkDescription.classList.toggle("light-mode-description"); //why does querySelector only apply to the first light-mode-description, not the other 3 in the class??? and querySelectorAll doesnt apply to any of them (and causes JS error with toggle), review with tutor
    var profilePic = document.querySelector(".profile-pic");
    profilePic.classList.toggle("light-mode-pics");
    var mainWorkPic = document.querySelector(".main-work-pic");

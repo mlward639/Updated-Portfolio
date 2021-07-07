@@ -27,7 +27,7 @@ a {
 }
 
 .logo-pic {
-    height: 100%; /* how to make logo bigger?? */
+    height: 100%; 
     margin-right: 5px;
     margin-bottom: 0;
     margin-top: 0;
@@ -207,7 +207,7 @@ a {
     line-height: 1;
 }
 
-/* contact me row vs footer */
+/* contact me row */
 
 .contact-me-container {
     margin-left: 0;
@@ -237,7 +237,7 @@ a {
 }
 
 
-/* light mode */  /* why is it not applying to last 3 pics????????, */
+/* light mode */  
 .light-mode {
     background-color: white;
     color: var(--darkGray)
@@ -278,6 +278,7 @@ a {
     .about-me-description {
         font-size: 16px;
     }
+
     .profile-pic {
         display: block;
         width: 85%
@@ -298,13 +299,11 @@ a {
     .main-work-description h2, .other-work-description h3 {
         font-size: 18px;
         line-height: 0.9;
-
     }
 
     .main-work-description p, .other-work-description p {
         font-size: 16px;
         line-height: 0.9;
-
     }
 
     .my-other-work {
@@ -318,8 +317,6 @@ a {
         width: 100%;
         height: inherit;
     }
-
-
 }
 
 
@@ -347,7 +344,6 @@ a {
     p {
         font-size: 12px; 
         line-height: 0.9;
-
     }
 }
 
